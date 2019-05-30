@@ -1,0 +1,80 @@
+body{
+    background: #007092;
+}
+.container{
+    width: 900px;
+    padding: 7% 10px;
+    margin:0 auto;
+
+}     
+a{
+    width:80px;
+    display:inline-block;
+    margin:5% 20px;
+    padding: 20px 0px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    color:#ffff;
+
+}
+a,h2{
+    background: -webkit-linear-gradient(top, #07b3df 0%, #024f63 100%);
+    border-radius: 10px;
+}
+h2{rgb(7, 179, 223);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.video-screen{
+    border:solid 1px #ffffff;
+
+}
+
+
+/*    record button animation start   */
+button{
+	width: 35px;
+	height: 35px;
+	font-size: 0;
+	background-color: red;
+	border: 0;
+	border-radius: 35px;
+	margin: 18px;
+	outline: none;
+}
+
+.notRec{
+	background-color: darkred;
+}
+
+.Rec{
+	animation-name: pulse;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes pulse{
+	0%{
+		box-shadow: 0px 0px 5px 0px rgba(173,0,0,.3);
+	}
+	65%{
+		box-shadow: 0px 0px 5px 13px rgba(173,0,0,.3);
+	}
+	90%{
+		box-shadow: 0px 0px 5px 13px rgba(173,0,0,0);
+	}
+}
+
+/*    record button animation   */
+
+
+video,img{
+    background-color: darkgray;
+
+    
+    
+}
